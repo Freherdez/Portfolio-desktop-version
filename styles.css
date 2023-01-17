@@ -43,4 +43,6 @@ body {
   color: #344563;
 }
 
-
+.heading_container {
+  background-image: url(/img/background_header.png);
+}

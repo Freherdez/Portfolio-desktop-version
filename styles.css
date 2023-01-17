@@ -43,6 +43,21 @@ body {
   color: #344563;
 }
 
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 160px 0px;
+  gap: 24px;
+  position: relative;
+  width: 920px;
+  height: 756px;
+  left: 260px;
+  top: 72px;
+}
+
 .heading_container {
   background-image: url(/img/background_header.png);
+  background-repeat: no-repeat;
 }

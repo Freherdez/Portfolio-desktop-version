@@ -75,4 +75,5 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
+  top: -8px;
 }

@@ -161,6 +161,7 @@ body {
   width: 1171px;
   height: 988px;
   justify-content: center;
+  
   border: 1px solid blue;/*Guia*/
 }
 
@@ -169,7 +170,16 @@ body {
   height: 474px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
-  list-style: none;
   background: #ebf0ee;
+}
+
+.card_inside {
+  height: 221px;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+  position: relative;
+  top: 200px;
+  border: 1px solid red;/*guia carta adentro*/
 }
 

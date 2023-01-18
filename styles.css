@@ -5,6 +5,14 @@ body {
   background-color: #fff;
 }
 
+.heading_container {
+  background-image: url(/img/background_header.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: -8px;
+}
+
 .bar {
   position: relative;
   margin: 0 auto;
@@ -70,10 +78,4 @@ body {
   color: #172b4d;
 }
 
-.heading_container {
-  background-image: url(/img/background_header.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: relative;
-  top: -8px;
-}
+

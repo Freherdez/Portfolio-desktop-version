@@ -73,4 +73,6 @@ body {
 .heading_container {
   background-image: url(/img/background_header.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
 }

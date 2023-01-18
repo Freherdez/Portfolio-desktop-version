@@ -96,6 +96,14 @@ body {
   left: 60px;
 }
 
-
+#button_social {
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
 

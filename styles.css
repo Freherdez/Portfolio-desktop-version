@@ -124,3 +124,29 @@ body {
 
 /*work section*/
 
+.work {
+  display: grid;
+  align-items: center;
+  padding: 64px 24px;
+  gap: 48px;
+  position: absolute;
+  width: 1171px;
+  height: 1244px;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.work_title {
+  width: 500px;
+  height: 48px;
+  font-family: 'inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #172b4d;
+}
+
+

@@ -125,15 +125,15 @@ body {
 /*work section*/
 
 .work {
-  display: grid;
+  text-align: center;
   align-items: center;
   padding: 64px 24px;
   gap: 48px;
   position: absolute;
-  width: 1171px;
+  width: 1200px;
   height: 1244px;
   justify-content: center;
-  border: 1px solid red;
+  border: 1px solid red;/*guia*/
 }
 
 .work_title {
@@ -146,7 +146,29 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   color: #172b4d;
+  position: relative;
+  left: 25%;
+  padding-bottom: 45px;
 }
 
+.grip_container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  gap: 15px;
+  width: 1171px;
+  height: 988px;
+  justify-content: center;
+  border: 1px solid blue;/*Guia*/
+}
 
+.card {
+  width: 369px;
+  height: 474px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  list-style: none;
+  background: #ebf0ee;
+}

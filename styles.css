@@ -41,6 +41,10 @@ body {
   color: #172b4d;
 }
 
+#h1_color {
+  color: #36b37e;
+}
+
 .bar {
   position: relative;
   margin: 0 auto;

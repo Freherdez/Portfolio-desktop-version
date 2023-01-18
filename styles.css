@@ -1,14 +1,17 @@
 body {
   position: relative;
   width: 1255px;
-  height: 3846px;
+  height: 3946px;
   background-color: #fff;
+}
+
+.heading_container {
 }
 
 .heading_container {
   background-image: url(/img/background_header.png);
   background-repeat: no-repeat;
-  background-size:  1250px;
+  background-size:  1250px 1300px;
   position: relative;
   top: -16px;
 }
@@ -19,11 +22,10 @@ body {
   align-items: center;
   justify-content: center;
   padding: 160px 0px;
-  gap: 24px;
   position: relative;
   width: 920px;
   height: 756px;
-  bottom: 160px;
+  bottom: 150px;
   left: 140px;
   border: 1px solid red;
 }

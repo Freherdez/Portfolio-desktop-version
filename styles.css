@@ -162,33 +162,25 @@ body {
   align-items: center;
   gap: 15px;
   width: 1171px;
-  height: 988px;
+  height: 1000px;
   justify-content: center;
-  border: 1px solid blue;/*Guia*/
 }
 
 .card {
-  width: 369px;
-  height: 474px;
+  width: 380px;
+  height: 498px;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   background: #ebf0ee;
 }
 
 .card_inside {
+  width: 380px;
   height: 221px;
   align-items: center;
+  position: relative;
   gap: 16px;
-  position: relative;
-  top: 220px;
-}
-
-.card_inside {
-  width: 369px;
-  height: 200px;
-  align-items: center;
-  position: relative;
-  top: 253px;
+  top: 258px;
   background: #fff;
   border-radius: 8px;
 }
@@ -199,12 +191,10 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 32px;
   color: #172b4d;
-  position: relative;
-  bottom: 10px;
-  left: 25px;
+  padding: 10px;
 }
 
 .stack {
@@ -215,7 +205,7 @@ body {
   width: 305px;
   height: 32px;
   position: relative;
-  bottom: 15px;
+  right: 30px;
 }
 
 .listw {
@@ -228,14 +218,56 @@ body {
   color: #172b4d;
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 4px;
   list-style: none;
 }
 
 .ruby {
-  width: max-content;
   justify-content: center;
   align-items: center;
+  background: #ebf0ee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 9px;
+  width: 103px;
+  height: 32px;
+  border-radius: 4px;
+}
+
+.css {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 9px;
+  width: 45px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.javascript {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 9px;
+  width: 82px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
+}
+
+.html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 4px;
+  width: 51px;
+  height: 32px;
+  background: #ebf0ee;
+  border-radius: 4px;
 }
 
 #button {
@@ -253,7 +285,7 @@ body {
   text-decoration: none;
   position: relative;
   left: 90px;
-  bottom: 30px;
+  bottom: 10px;
   border-color: transparent;
 }
 

@@ -322,7 +322,6 @@ body {
   gap: 24px;
   width: 920px;
   height: 240px;
-  border: 1px solid red;
 }
 
 .text_about {
@@ -345,6 +344,34 @@ body {
   color: #42526e;
 }
 
+#button_resume {
+  padding: 12px;
+  width: 159px;
+  height: 48px;
+  background: #36b37f;
+  border-radius: 4px;
+  text-align: center;
+  justify-content: center;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+#button_resume p {
+  width: 135px;
+  height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
 
 

@@ -657,3 +657,26 @@ body {
   left: 90%;
   top: 30%;
 }
+
+/*Footer*/
+
+.line {
+  position: relative;
+  top: 2420px;
+  right: 10px;
+  border: 1px solid #DFE1E6;
+}
+
+.footer_nav {
+position: absolute;
+width: 1440vw;
+height: 72px;
+top: 3880px;
+padding-bottom: 5px;
+}
+
+.footer_nav ul {
+  position: absolute;
+  left: 2.7%;
+}
+

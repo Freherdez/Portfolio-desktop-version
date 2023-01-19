@@ -506,3 +506,16 @@ body {
   right: 200px;
 }
 
+.form_section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 80px 0px;
+  position: absolute;
+  width: 1171px;
+  height: 490px;
+  left: 50px;
+  top: 3300px;
+  border: 1px solid red;
+}
+

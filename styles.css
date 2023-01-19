@@ -345,6 +345,8 @@ body {
   gap: 24px;
   width: 920px;
   height: 240px;
+  position: relative;
+  left: 1%;
 }
 
 .text_about {
@@ -380,6 +382,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+  margin-left: 2%;
 }
 
 #button_resume p {
@@ -403,11 +406,14 @@ body {
 .skills_container {
   display: inline-grid;
   align-items: center;
-  padding: 60px 8px;
+  padding: 4px 8px;
   grid-template-columns: auto auto auto;
   gap: 24px;
   width: 1171px;
   height: 360px;
+  position: relative;
+  left: 2%;
+  top: 4%;
 }
 
 .card_skills {
@@ -512,6 +518,8 @@ body {
   right: 200px;
 }
 
+/*Form section*/
+
 .form_section {
   display: flex;
   flex-direction: row;
@@ -520,7 +528,7 @@ body {
   position: absolute;
   width: 1100px;
   height: 490px;
-  left: 50px;
+  left: 10%;
   top: 3300px;
   gap: 10px;/*SEPARADOR DE ELEMENTOS*/
 }
@@ -531,19 +539,20 @@ body {
   align-items: center;
   gap: 24px;
   width: 463px;
-  height: 240px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 52px;
-  color: #172b4d;
+  height: 256px;
 }
 
 .h2_contact h2{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 52px;
+  margin-right: 24px;
   width: 463px;
   height: 256px;
   text-align:justify;
+  color: #172b4d;
 }
 
 .form_container {
@@ -556,7 +565,7 @@ body {
 }
 
 .input_form input{
-  width: 670px;
+  width: 684px;
   height: 48px;
   background-color: #fff;
   border: 1px solid #d0d9d4;
@@ -568,7 +577,7 @@ body {
 }
 
 .text_area textarea{
-  width: 670px;
+  width: 684px;
   height: 114px;
   background: #fff;
   border: 1px solid #60c095;

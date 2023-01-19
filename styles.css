@@ -315,24 +315,25 @@ body {
   padding: 80px 0px;
   gap: 48px;
   position: absolute;
-  width: 1251px;
+  width: 1171px;
   height: 808px;
+  left: 115px;
   top: 2350px;
 }
 
 .img_about1 {
   position: absolute;
-  width: 150px;
-  height: 100px;
-  top: 2630px;
+  width: 288.04px;
+  height: 140.24px;
+  top: 2580px;
   left: -15px;
 }
 
 .img_about2{
   position: absolute;
-  width: 253px;
-  height: 225px;
-  top: 2450px;
+  width: 269.55px;
+  height: 244.78px;
+  top: 2350px;
   right: 1px;
 }
 

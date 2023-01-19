@@ -312,6 +312,7 @@ body {
   width: 1171px;
   height: 808px;
   top: 2450px;
+  border: 1px solid red;
 }
 
 .img_about1 {
@@ -390,4 +391,14 @@ body {
   color: #fff;
 }
 
+.skills_container {
+  display: inline-grid;
+  align-items: center;
+  padding: 4px 8px;
+  grid-template-columns: auto auto auto;
+  gap: 24px;
+  width: 1171px;
+  height: 360px;
+  border: 1px solid red;
+}
 

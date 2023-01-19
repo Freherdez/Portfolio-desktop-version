@@ -25,7 +25,6 @@ body {
   height: 756px;
   bottom: 250px;
   left: 210px;
-  border: 1px solid red;
 }
 
 .bar {
@@ -135,7 +134,9 @@ body {
   padding: 64px 24px;
   gap: 48px;
   position: absolute;
-  width: 1200px;
+  top: 1059px;
+  left: 115px;
+  width: 1171px;
   height: 1244px;
   justify-content: center;
 }
@@ -303,6 +304,8 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
 }
+
+/*About me section*/
 
 .about {
   display: flex;

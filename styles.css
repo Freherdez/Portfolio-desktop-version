@@ -176,10 +176,96 @@ body {
 .card_inside {
   height: 221px;
   align-items: center;
-  padding: 16px;
   gap: 16px;
   position: relative;
-  top: 200px;
-  border: 1px solid red;/*guia carta adentro*/
+  top: 220px;
+}
+
+.card_inside {
+  width: 369px;
+  height: 200px;
+  align-items: center;
+  position: relative;
+  top: 253px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.paragraph_card {
+  width: 337px;
+  height: 57px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #172b4d;
+  position: relative;
+  bottom: 10px;
+  left: 25px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  width: 305px;
+  height: 32px;
+  position: relative;
+  bottom: 15px;
+}
+
+.listw {
+  width: 103px;
+  height: 32px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #172b4d;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+
+.ruby {
+  width: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 10px;
+  width: 122px;
+  height: 60px;
+  background-color: #36b37f;
+  border-radius: 8px;
+  margin: 40px 20px 20px 20px;
+  text-decoration: none;
+  position: relative;
+  left: 90px;
+  bottom: 30px;
+  border-color: transparent;
+}
+
+#button p {
+  width: 122px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
 

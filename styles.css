@@ -306,12 +306,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 80px 0px;
   gap: 48px;
   position: absolute;
-  width: 1171px;
+  width: 1251px;
   height: 808px;
-  top: 2450px;
+  top: 2350px;
   border: 1px solid red;
 }
 
@@ -319,7 +320,7 @@ body {
   position: absolute;
   width: 150px;
   height: 100px;
-  top: 2650px;
+  top: 2630px;
   left: -15px;
 }
 
@@ -373,6 +374,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 #button_resume p {
@@ -391,14 +393,64 @@ body {
   color: #fff;
 }
 
+/*skill section*/
+
 .skills_container {
   display: inline-grid;
   align-items: center;
-  padding: 4px 8px;
+  padding: 60px 8px;
   grid-template-columns: auto auto auto;
   gap: 24px;
   width: 1171px;
   height: 360px;
   border: 1px solid red;
 }
+
+.card_skills {
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 369px;
+  height: 352px;
+  background: #ebf0ee;
+  /*border : 1px solid #c1c7do (coloca este estilo)*/
+  border: 1px solid black;
+  border-radius: 8px
+}
+
+#icons {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  padding: 15px;
+  left: 40%;
+  top: 15%;
+  background: #FFFFFF;
+  box-shadow: 0px 16px 24px rgba(37, 47, 137, 0.08);
+  border-radius: 50%;
+}
+
+.skill_h2 {
+  width: 337px;
+  height: 32px;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #344563;
+}
+
+.stack_skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  width: 368px;
+  height: 96px;
+  top: 110px;
+  border: 1px solid red;
+}
+
 

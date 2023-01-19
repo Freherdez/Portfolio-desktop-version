@@ -565,3 +565,29 @@ body {
   padding-left: 15px;
 }
 
+.text_area textarea{
+  width: 670px;
+  height: 114px;
+  background: #fff;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+  resize: none;
+}
+
+.text_area textarea::placeholder {
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+#icon_textarea {
+  position: relative;
+  left: 661px;
+  bottom: 25px;
+}
+

@@ -311,7 +311,23 @@ body {
   position: absolute;
   width: 1171px;
   height: 808px;
-  top: 2420px;
+  top: 2450px;
+}
+
+.img_about1 {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  top: 2650px;
+  left: -15px;
+}
+
+.img_about2{
+  position: absolute;
+  width: 253px;
+  height: 225px;
+  top: 2450px;
+  right: 1px;
 }
 
 .about_container {
